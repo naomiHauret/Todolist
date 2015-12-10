@@ -1,0 +1,121 @@
+html {
+    scroll-behavior: smooth
+}
+
+body{
+  font-family:"Open sans", cursive;
+  color:white;
+  text-align:center;
+
+	background:
+		-webkit-linear-gradient(45deg, hsla(165, 100%, 85%, 1) 0%, hsla(165, 100%, 85%, 0) 70%),
+		-webkit-linear-gradient(315deg, hsla(244, 71%, 51%, 1) 10%, hsla(244, 71%, 51%, 0) 80%),
+		-webkit-linear-gradient(225deg, hsla(159, 76%, 68%, 1) 10%, hsla(159, 76%, 68%, 0) 80%),
+		-webkit-linear-gradient(135deg, hsla(189, 86%, 37%, 1) 100%, hsla(189, 86%, 37%, 0) 70%);
+	background:
+		linear-gradient(45deg, hsla(165, 100%, 85%, 1) 0%, hsla(165, 100%, 85%, 0) 70%),
+		linear-gradient(135deg, hsla(244, 71%, 51%, 1) 10%, hsla(244, 71%, 51%, 0) 80%),
+		linear-gradient(225deg, hsla(159, 76%, 68%, 1) 10%, hsla(159, 76%, 68%, 0) 80%),
+		linear-gradient(315deg, hsla(189, 86%, 37%, 1) 100%, hsla(189, 86%, 37%, 0) 70%);
+	
+}
+
+h1{
+  font-style: italic;
+ 
+}
+
+.todo{
+   font-weight:600;
+  font-style: italic;
+}
+h2{
+  font-weight:400;
+}
+
+p{
+    font-weight:300;
+
+}
+
+input[type=text], input[type=password] {
+  font-family:"Open sans", cursive;
+  font-weight:400;
+  color:white;
+  background: rgba(255, 255, 255, 0.25);
+  padding:3px;
+  height:50px;
+  width: 300px;
+  margin: 5px;
+  border:0px solid white;
+  border-radius:5px;
+}
+
+input[type=submit]{
+    font-family:"Open sans", cursive;
+  font-weight:600;
+  color:white;
+  padding:5px;
+  width:200px;
+   border:1px solid white;
+    border-radius:20px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+header{
+  position:absolute;
+  top:0;
+}
+
+footer{
+  margin-top:50px;
+  position:relative;
+  
+}
+
+header,footer{
+  text-align:center;
+  width:82%;  
+  left:18%;
+
+}
+
+nav{
+
+  position: fixed;
+  top:0;
+  left:0;
+  background: rgba(255, 255, 255, 0.25);
+  height:100%;
+  width:18%;  
+}
+
+
+#quoi, #connex, #inscrire{
+  width:82%;
+  height:100%;
+  position:relative;
+  margin-top:250px;
+  left:18%;
+  
+}
+
+
+nav ul{
+  width:100%;
+  padding:5px;
+  text-align:center;
+  list-style:none;
+}
+
+
+nav  li:hover{
+  background: rgba(15, 255, 255, 0.35);
+  
+}
+
+nav a{
+  color:white;
+text-decoration:none;
+  
+}

@@ -1,0 +1,173 @@
+
+body{
+
+  font-family:"Open sans", cursive;
+  color:white;
+  text-align:center;
+overflow-x:hidden;
+	
+	background:
+		-webkit-linear-gradient(45deg, hsla(165, 100%, 85%, 1) 0%, hsla(165, 100%, 85%, 0) 70%),
+		-webkit-linear-gradient(315deg, hsla(244, 71%, 51%, 1) 10%, hsla(244, 71%, 51%, 0) 80%),
+		-webkit-linear-gradient(225deg, hsla(159, 76%, 68%, 1) 10%, hsla(159, 76%, 68%, 0) 80%),
+		-webkit-linear-gradient(135deg, hsla(189, 86%, 37%, 1) 100%, hsla(189, 86%, 37%, 0) 70%);
+	background:
+		linear-gradient(45deg, hsla(165, 100%, 85%, 1) 0%, hsla(165, 100%, 85%, 0) 70%),
+		linear-gradient(135deg, hsla(244, 71%, 51%, 1) 10%, hsla(244, 71%, 51%, 0) 80%),
+		linear-gradient(225deg, hsla(159, 76%, 68%, 1) 10%, hsla(159, 76%, 68%, 0) 80%),
+		linear-gradient(315deg, hsla(189, 86%, 37%, 1) 100%, hsla(189, 86%, 37%, 0) 70%);
+	
+}
+
+h1{
+  font-style: italic;
+}
+
+.todo{
+   font-weight:600;
+  font-style: italic;
+}
+h2{
+  font-weight:400;
+}
+
+p{
+    font-weight:300;
+
+}
+
+
+input[type=submit]{
+    font-family:"Open sans", cursive;
+  font-weight:600;
+  color:white;
+  padding:5px;
+  width:90px;
+   border:1px solid white;
+    border-radius:20px;
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+
+input[type=text]{
+  font-family:"Open sans", cursive;
+  font-weight:400;
+  color:white;
+  background: rgba(255, 255, 255, 0.25);
+  padding:3px;
+  height:20px;
+  width: 230px;
+  margin: 5px;
+  border:0px solid white;
+  border-radius:5px;
+}
+
+header{
+  position:absolute;
+  top:0;
+}
+
+footer{
+  margin-top:25%;;
+  position:relative;
+  
+}
+
+header,footer{
+  text-align:center;
+  width:82%;  
+  left:18%;
+
+}
+
+nav{
+
+  position: fixed;
+  top:0;
+  left:0;
+  background: rgba(255, 255, 255, 0.25);
+  height:100%;
+  width:18%;  
+}
+
+
+section{
+  display:inline-block;
+  height:100%;
+  position:relative;
+    width:41%;
+  margin-top:250px;
+  
+}
+
+#formulaire{
+  margin-left:150px;
+
+}
+
+#todolist{
+  padding-top:20px;
+  padding-bottom: 20px;
+
+  background-color:#f8f8f8;
+  color:#1a1a1a;
+  
+ -moz-box-shadow: inset 0px 0px 50px 0px #c0c0c0;
+-webkit-box-shadow: inset 0px 0px 50px 0px #c0c0c0;
+-o-box-shadow: inset 0px 0px 50px 0px #c0c0c0;
+box-shadow: inset 0px 0px 50px 0px #c0c0c0;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#c0c0c0, Direction=NaN, Strength=10);
+
+}
+
+#todolist a{
+  color: black;   
+}
+
+
+.animated { 
+    -webkit-animation-duration: 10s; 
+    animation-duration: 10s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    -webkit-animation-timing-function: linear; 
+    animation-timing-function: linear; 
+    animation-iteration-count:infinite; 
+    -webkit-animation-iteration-count:infinite; 
+} 
+
+@-webkit-keyframes shake { 
+    0%, 100% {-webkit-transform: translateX(0);} 
+    10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-10px);} 
+    20%, 40%, 60%, 80% {-webkit-transform: translateX(10px);} 
+} 
+@keyframes shake { 
+    0%, 100% {transform: translateX(0);} 
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-2px);} 
+    20%, 40%, 60%, 80% {transform: translateX(10px);} 
+} 
+.shake { 
+    -webkit-animation-name: shake; 
+    animation-name: shake; 
+}
+
+
+nav ul{
+  width:100%;
+  padding:5px;
+  text-align:center;
+  list-style:none;
+}
+
+
+nav  li:hover{
+  background: rgba(15, 255, 255, 0.35);
+  
+}
+
+nav a{
+  color:white;
+text-decoration:none;
+  
+}
